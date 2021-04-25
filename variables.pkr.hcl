@@ -33,8 +33,6 @@ variable "profile" {
   default = "default"
 }
 
-
-
 variable "EKS_version" {
   type    = string
   default = "21"
