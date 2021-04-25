@@ -7,8 +7,10 @@ packer {
   }
 }
 
+# Adding script to install in image
+
 build {
-  name    = "learn-packer"
+  name = "learn-packer"
   sources = [
     "source.amazon-ebs.eks-image"
   ]
@@ -18,9 +20,10 @@ build {
       "FOO=hello world",
     ]
     inline = [
-      "echo Installing Redis",
+      "echo install htop",
       "sleep 30",
-      "sudo apt-get update",
+      "sudo yum update",
+      "sudo yum install htop -y"
     ]
   }
 }
