@@ -3,7 +3,7 @@ source "amazon-ebs" "eks-image" {
   profile       = var.profile
   ami_name      = "EKS-${var.EKS_version}-${local.timestamp}"
   instance_type = var.instance_type
-  encrypt_boot = true
+  encrypt_boot  = true
   source_ami_filter {
     filters = {
       name                = var.AMI_name
@@ -15,9 +15,9 @@ source "amazon-ebs" "eks-image" {
   }
   ssh_username = "ec2-user"
   tags = {
-    Name = "EKS-${var.EKS_version}-${local.timestamp}"
-    Base_AMI_ID = "{{ .SourceAMI }}"
+    Name          = "EKS-${var.EKS_version}-${local.timestamp}"
+    Base_AMI_ID   = "{{ .SourceAMI }}"
     Base_AMI_Name = "{{ .SourceAMIName }}"
-    ENV = var.environment
-    }
+    ENV           = var.environment
+  }
 }
