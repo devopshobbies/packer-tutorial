@@ -23,7 +23,11 @@ build {
       "echo install htop",
       "sleep 30",
       "sudo yum update",
-      "sudo yum install htop -y"
+      "sudo yum install htop top nmon mc -y"
+      "sudo yum install software-properties-common"
+      "sudo add-apt-repository --yes --update ppa:ansible/ansible"
+      "sudo apt-get -y install ansible"
+      "sudo add-apt-repository --yes --update ppa:ansible/ansible"
     ]
   }
 }
