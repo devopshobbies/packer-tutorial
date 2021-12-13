@@ -26,7 +26,9 @@ build {
       "sudo apt-get install htop nmon mc -y",
       "sudo apt-get install software-properties-common",
       "sudo add-apt-repository --yes --update ppa:ansible/ansible",
-      "sudo apt-get -y install ansible"
+      "sudo apt-get -y install ansible",
+      "echo downloading ansible code",
+      "mkdir /home/baseConfig && cd /home/baseConfig/ && git clone https://github.com/babakDoraniArab/testHtmlTemplate.git && ls -lrth" 
     ]
   }
 }
