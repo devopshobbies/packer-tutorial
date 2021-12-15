@@ -28,7 +28,7 @@ build {
       "sudo add-apt-repository --yes --update ppa:ansible/ansible",
       "sudo apt-get -y install ansible",
       "echo downloading ansible code",
-      "mkdir /home/baseConfig && cd /home/baseConfig/ && git clone https://github.com/babakDoraniArab/testHtmlTemplate.git && ls -lrth" 
+      "mkdir /home/baseConfig && cd /home/baseConfig/ && git clone git@github.com:ahmadalibagheri/ansible-tutorial.git && ls -lrth" 
     ]
   }
 }
