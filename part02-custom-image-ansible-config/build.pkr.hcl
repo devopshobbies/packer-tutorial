@@ -24,11 +24,13 @@ build {
       "sleep 30",
       "sudo apt-get update",
       "sudo apt-get install htop nmon mc -y",
+      "echo adding ansible repository",
       "sudo apt-get install software-properties-common",
       "sudo add-apt-repository --yes --update ppa:ansible/ansible",
-      "sudo apt-get -y install ansible",
+      "echo install ansible",
+      "sudo apt-get -y install ansible && ansible --version",
       "echo downloading ansible code",
-      "mkdir /home/baseConfig && cd /home/baseConfig/ && git clone git@github.com:ahmadalibagheri/ansible-tutorial.git && ls -lrth" 
+      "sudo mkdir /opt/ansible-baseconfig && cd /opt/ansible-baseconfig/ && git clone git@github.com:ahmadalibagheri/ansible-tutorial.git && ls -lrth" 
     ]
   }
 }
