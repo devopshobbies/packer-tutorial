@@ -16,7 +16,8 @@ packer {
 build {
   name = "learn-packer"
   sources = [
-    "source.amazon-ebs.ansible-image"
+    "source.amazon-ebs.ansible-image",
+    "source.docker.ubuntu"
   ]
 
   provisioner "shell" {
@@ -24,15 +25,35 @@ build {
       "FOO=hello world",
     ]
     inline = [
-      "echo -----------------install ansible config-----------------",
+      "echo Adding file to Docker Container",
+      "echo \"FOO is $FOO\" > example.txt",
+    ]
+    only             = ["docker.ubuntu"]
+  }
+
+  provisioner "shell" {
+    inline = ["echo Running ${var.docker_image} Docker image."]
+    only             = ["docker.ubuntu"]
+  }
+
+  provisioner "shell" {
+    environment_vars = [
+      "FOO=hello world",
+    ]
+    inline = [
+      "echo -----------------update ubuntu-----------------",
       "sleep 30",
       "sudo apt-get update",
-      "sudo apt-get install htop nmon mc -y",
-      "echo -----------------adding ansible repository-----------------",
-      "sudo apt-get install software-properties-common",
-      "sudo add-apt-repository --yes --update ppa:ansible/ansible",
-      "echo -----------------install ansible-----------------",
-      "sudo apt-get -y install ansible && ansible --version",
     ]
+    only             = ["amazon-ebs.ansible-image"]
   }
+}
+
+
+
+build {
+  name    = "learn-packer"
+  sources = [
+    "source.docker.ubuntu",
+  ]
 }
