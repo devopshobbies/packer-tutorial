@@ -13,3 +13,8 @@ source "amazon-ebs" "ansible-image" {
     ENV           = var.environment
   }
 }
+
+source "docker" "ubuntu" {
+  image  = var.docker_image
+  commit = true
+}
