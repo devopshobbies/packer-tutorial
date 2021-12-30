@@ -21,3 +21,8 @@ variable "profile" {
   type    = string
   default = "default"
 }
+
+variable "docker_image" {
+  type    = string
+  default = "ubuntu:xenial"
+}
