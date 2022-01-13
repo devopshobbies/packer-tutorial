@@ -1,3 +1,11 @@
+# Packer-tutorial
+
+<p align="center" style="text-align:center;">
+  <a href="https://www.packer.io">
+    <img alt="HashiCorp Packer logo" src="website/public/img/logo-packer-padded.svg" width="500" />
+  </a>
+</p>
+
 ## Documentation
 
 * Explore the Packer for Packer [CLI](https://www.packer.io/downloads) >= v1.8.0+
