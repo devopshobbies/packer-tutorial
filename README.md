@@ -47,3 +47,27 @@ Build the image with the packer build command.
 ```shell
 packer build .
 ```
+
+## Published articles:
+
+ - [Packer Tutorial - Part 1 - Docker Introduction]()
+
+ - [Packer Tutorial - Part 2 - GitHub Introduction]()
+
+ - [Packer Tutorial - Part 3 - Kubernetes Introduction]()
+
+
+## Contributions:
+
+All contributions are welcomed. Help me to enrich this repository.
+
+If you find any **bugs** in the examples, please file an issue.
+
+### TODO:
+
+ - [ ] Adding Packer Azure DevOps
+ - [ ] Adding Packer Vcenter
+ - [ ] Adding Packer GitLab
+ - [ ] Adding Packer Consul
+ - [ ] Adding Packer Vault
+
