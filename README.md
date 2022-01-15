@@ -50,8 +50,8 @@ packer build .
 
 ## Published articles:
 
- - [Packer Tutorial - Part 1 - Docker Introduction]()
-
+ - [Packer Tutorial - Part 1 - Create Basic image on AWS EKS]()
+b
  - [Packer Tutorial - Part 2 - GitHub Introduction]()
 
  - [Packer Tutorial - Part 3 - Kubernetes Introduction]()
