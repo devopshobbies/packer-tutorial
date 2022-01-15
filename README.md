@@ -50,9 +50,9 @@ packer build .
 
 ## Published articles:
 
- - [Packer Tutorial - Part 1 - Create Basic image on AWS EKS]()
+ - [Packer Tutorial - Part 1 - Create Basic EKS image on AWS ]()
 b
- - [Packer Tutorial - Part 2 - GitHub Introduction]()
+ - [Packer Tutorial - Part 2 - Create Basic Ubuntu image with Ansible config on AWS]()
 
  - [Packer Tutorial - Part 3 - Kubernetes Introduction]()
 
