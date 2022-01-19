@@ -54,7 +54,7 @@ packer build .
 b
  - [Packer Tutorial - Part 2 - Create Basic Ubuntu image with Ansible config on AWS]()
 
- - [Packer Tutorial - Part 3 - Kubernetes Introduction]()
+ - [Packer Tutorial - Part 3 - Create paraller image with to different provider]()
 
 
 ## Contributions:
