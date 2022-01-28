@@ -1,11 +1,3 @@
-# Packer-tutorial
-
-<p align="center" style="text-align:center;">
-  <a href="https://www.packer.io">
-    <img alt="HashiCorp Packer logo" src="image/logo-packer-padded.svg" width="500" />
-  </a>
-</p>
-
 ## Documentation
 
 * Explore the Packer for Packer [CLI](https://www.packer.io/downloads) >= v1.8.0+
@@ -47,27 +39,3 @@ Build the image with the packer build command.
 ```shell
 packer build .
 ```
-
-## Published articles:
-
- - [Packer Tutorial - Part 1 - Create Basic EKS image on AWS]()
-b
- - [Packer Tutorial - Part 2 - Create Basic Ubuntu image with Ansible config on AWS]()
-
- - [Packer Tutorial - Part 3 - Create paraller image with to different provider]()
-
-
-## Contributions:
-
-All contributions are welcomed. Help me to enrich this repository.
-
-If you find any **bugs** in the examples, please file an issue.
-
-### TODO:
-
- - [ ] Adding Packer Azure DevOps
- - [ ] Adding Packer Vcenter
- - [ ] Adding Packer GitLab
- - [ ] Adding Packer Consul
- - [ ] Adding Packer Vault
-
