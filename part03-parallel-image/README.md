@@ -10,7 +10,7 @@ $ export AWS_ACCESS_KEY_ID=AAAAAA
 $ export AWS_SECRET_ACCESS_KEY=AAAAA
 ```
 
-# packer-aws-eks-image
+# packer-paraller-aws-ubuntu-image-vs-docker-image
 
 Build basic eks image with packer hashicorp
 
