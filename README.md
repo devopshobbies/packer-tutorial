@@ -32,4 +32,5 @@ If you find any **bugs** in the examples, please file an issue.
  - [ ] Adding Packer VMware vSphere
  - [ ] Adding Packer LXC
  - [ ] Adding Packer Hyper-V
+ - [ ] Adding Packer Azure
 
