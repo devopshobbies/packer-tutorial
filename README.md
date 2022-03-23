@@ -18,6 +18,16 @@
 
  - [Packer Tutorial - Part 3 - Create paraller image with to different provider]()
 
+ - [Packer Tutorial - Part 4 - Create Vagrant image]() InProgress
+
+ - [Packer Tutorial - Part 5 - Create VirtualBox image]() InProgress
+
+ - [Packer Tutorial - Part 6 - Create VMware vSphere image]() InProgress
+
+ - [Packer Tutorial - Part 7 - Create LXC image]() InProgress
+
+ - [Packer Tutorial - Part 8 - Create Azure image]() InProgress
+
 
 ## Contributions:
 
