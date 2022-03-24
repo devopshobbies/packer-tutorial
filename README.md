@@ -22,7 +22,7 @@
 
  - [Packer Tutorial - Part 5 - Create VirtualBox image]() InProgress
 
- - [Packer Tutorial - Part 6 - Create VMware vSphere image]() InProgress
+ - [Packer Tutorial - Part 6 - Create VMware vSphere image]()
 
  - [Packer Tutorial - Part 7 - Create LXC image]() InProgress
 
