@@ -13,6 +13,5 @@ variable "ssh_password" {
 
 variable "ssh_username" {
   type    = string
-  default = "mozart4242"
+  default = "UserName"
 }
-
