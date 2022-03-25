@@ -20,7 +20,7 @@
 
  - [Packer Tutorial - Part 4 - Create Vagrant image]() InProgress
 
- - [Packer Tutorial - Part 5 - Create VirtualBox image]() InProgress
+ - [Packer Tutorial - Part 5 - Create VirtualBox image]()
 
  - [Packer Tutorial - Part 6 - Create VMware vSphere image]()
 
