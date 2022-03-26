@@ -39,8 +39,4 @@ source "virtualbox-iso" "basic-example" {
   ]
   format = "ova"
 
-
-
-
 }
-

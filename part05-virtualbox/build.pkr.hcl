@@ -18,4 +18,3 @@ build {
     inline = ["sleep 30", "apt update", "apt install nginx -y"]
   }
 }
-
