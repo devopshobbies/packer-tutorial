@@ -12,19 +12,19 @@
 
 ## Published articles:
 
- - [Packer Tutorial - Part 1 - Create Basic EKS image on AWS]()
+ - [Packer Tutorial - Part 1 - Create Basic EKS image on AWS](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part01-aws-eks-basic-image)
 
- - [Packer Tutorial - Part 2 - Create Basic Ubuntu image with Ansible config on AWS]()
+ - [Packer Tutorial - Part 2 - Create Basic Ubuntu image with Ansible config on AWS](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part02-ubuntu-ansible-config)
 
- - [Packer Tutorial - Part 3 - Create paraller image with to different provider]()
+ - [Packer Tutorial - Part 3 - Create paraller image with to different provider](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part03-parallel-image)
 
- - [Packer Tutorial - Part 4 - Create Vagrant image]() InProgress
+ - [Packer Tutorial - Part 4 - Create Vagrant image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part04-vagrant)
 
- - [Packer Tutorial - Part 5 - Create VirtualBox image]()
+ - [Packer Tutorial - Part 5 - Create VirtualBox image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part05-virtualbox)
 
- - [Packer Tutorial - Part 6 - Create VMware vSphere image]()
+ - [Packer Tutorial - Part 6 - Create VMware vSphere image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part06-vmware-vsphere)
 
- - [Packer Tutorial - Part 7 - Create LXC image]() InProgress
+ - [Packer Tutorial - Part 7 - Create LXC image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part07-lxc-image)
 
  - [Packer Tutorial - Part 8 - Create Azure image]() InProgress
 
@@ -37,9 +37,6 @@ If you find any **bugs** in the examples, please file an issue.
 
 ### TODO:
 
- - [ ] Adding Packer Vagrant
- - [ ] Adding Packer VirtualBox
- - [ ] Adding Packer LXC
  - [ ] Adding Packer Hyper-V
  - [ ] Adding Packer Azure
-
+ - [ ] Adding Packer Openstack
