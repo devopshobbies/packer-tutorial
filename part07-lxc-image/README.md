@@ -1,11 +1,15 @@
 ## build LXC container with Packer
 
-This code create an Ubuntu 20.04 (focal) image and install a curl in it and export it in output-lxc-focal (rootfs.tar.gz and config)
+- This code create an Ubuntu 20.04 (focal) image and install a curl in it and export it in output-lxc-focal (rootfs.tar.gz and config)
 
-I used the default config to create the image
+- This is written by json format
 
-user and password is : ubuntu
-However, ssh key is also added to VM
+- I used the default config to create the image
+
+-  user and password is : ubuntu
+
+- However, ssh key is also added to VM
+
 ## Usage
 clone project
 ```shell
