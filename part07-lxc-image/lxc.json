@@ -1,0 +1,28 @@
+{
+  "variables": {
+    "HOME": "{{env `HOME`}}"
+  },
+  "builders": [
+    {
+      "type": "lxc",
+      "name": "lxc-ubuntu",
+      "config_file": "./config",
+      "template_name": "ubuntu",
+      "template_environment_vars": [
+        "SUITE=focal"
+      ]
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "execute_command": "echo 'ubuntu' | sudo -S -E bash '{{.Path}}'",
+      "script": "scripts/setup.sh"
+    },
+    {
+      "type": "file",
+      "source": "./authorized_keys",
+      "destination": "/home/ubuntu/.ssh/"
+    }
+  ]
+}

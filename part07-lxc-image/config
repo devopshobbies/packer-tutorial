@@ -1,0 +1,12 @@
+lxc.include = /usr/share/lxc/config/ubuntu.common.conf
+
+# Container specific configuration
+lxc.rootfs.path = dir:/var/lib/lxc/u1/rootfs
+lxc.uts.name = u1
+lxc.arch = amd64
+
+# Network configuration
+lxc.net.0.type = veth
+lxc.net.0.link = lxcbr0
+lxc.net.0.flags = up
+lxc.net.0.hwaddr = 00:16:3e:4f:db:26
