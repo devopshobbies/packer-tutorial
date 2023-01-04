@@ -14,7 +14,7 @@ build {
   sources = ["source.vsphere-iso.example"]
 
   provisioner "shell" {
-    inline = ["sleep 30", "ls /", "echo "Done!" ]
+    inline = ["sleep 30", "ls /", "echo 'Done!' " ]
   }
 }
 
