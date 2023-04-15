@@ -8,6 +8,9 @@ Add your AWS credentials as two environment variables, AWS_ACCESS_KEY_ID and AWS
 ```shell
 $ export AWS_ACCESS_KEY_ID=AAAAAA
 $ export AWS_SECRET_ACCESS_KEY=AAAAA
+
+# And also if you didn't specify default AWS region:
+$ export AWS_REGION=xx-xxxx-x
 ```
 
 # packer-aws-ubuntu-image
