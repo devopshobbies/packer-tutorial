@@ -10,7 +10,7 @@ $ export AWS_ACCESS_KEY_ID=AAAAAA
 $ export AWS_SECRET_ACCESS_KEY=AAAAA
 
 # And also if you didn't specify default AWS region:
-$ export AWS_REGION=xx-xxxx-x
+$ export AWS_DEFAULT_REGION=xx-xxxx-x
 ```
 
 # packer-aws-ubuntu-image
