@@ -3,7 +3,7 @@ locals { timestamp = regex_replace(timestamp(), "[- TZ:]", "") }
 
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "eu-west-1"
 }
 
 variable "instance_type" {
@@ -20,4 +20,9 @@ variable "environment" {
 variable "profile" {
   type    = string
   default = "default"
+}
+
+variable "ami_name" {
+  type    = string
+  default = "learn-packer"
 }
