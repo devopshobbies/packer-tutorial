@@ -13,4 +13,12 @@ variable "build_source" {
   default = "source.docker.ubuntu"
 }
 
+variable "build_repo" {
+  type    = string
+  default = "hashicorp/packer"
+}
 
+variable "build_tags" {
+  type    = list(string)
+  default = ["0.6", "anothertag"]
+}
