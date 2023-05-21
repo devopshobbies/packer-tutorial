@@ -7,16 +7,11 @@ packer {
     }
 }
 
-source "docker" "ubuntu" {
-    image = "ubuntu:latest"
-    # Commit the container to an image
-    commit = true
-}
 
 build {
-    name = "docker-example"
+    name = var.build_name
     source =  [
-        "source.docker.ubuntu"
+        var.build_source
     ],
     provisioner "shell" {
         environment_vars = [
@@ -40,7 +35,7 @@ build {
         post-processor "docker-push" {}
         # Save to image file 
         post-processor "docker-save" {
-            path = "${image}.tar"
+            path = "${var.image_name}.tar"
         }
     }
 }
