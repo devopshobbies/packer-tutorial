@@ -19,9 +19,8 @@ build {
     ]
     inline = [
       "echo installing vim package",
-      "sleep 30",
-      "sudo apt update",
-      "sudo apt install vim -y",
+      "apt-get update",
+      "apt-get install vim -y",
 
     ]
   }
@@ -32,7 +31,10 @@ build {
       tag        = var.build_tags
     }
     # Push to docker hub
-    post-processor "docker-push" {}
+    post-processor "docker-push" {
+        # dont delete the docker image after pushing it to the cloud.
+        keep_input_artifact = true
+    }
     # Save to image file 
     post-processor "docker-save" {
       path = "${var.image_name}.tar"
