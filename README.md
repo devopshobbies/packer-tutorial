@@ -26,7 +26,9 @@
 
  - [Packer Tutorial - Part 7 - Create LXC image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part07-lxc-image)
 
- - [Packer Tutorial - Part 8 - Create Azure image]() InProgress
+-  [Packer Tutorial - Part 8 - Create Docker image](https://github.com/ahmadalibagheri/packer-tutorial/tree/master/part08-docker)
+
+ - [Packer Tutorial - Part 9 - Create Azure image]() InProgress
 
 
 ## Contributions:
